@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="#results">Results</a></li>
                 <li><a href="#facets">Facets</a></li>
-                <li><a href="#maps">Maps</a></li>
+                <!- li><a href="#maps">Maps</a></li -->
                 {% if count <= 30000 %}
                 <li><a href="#statistics">Statistics</a></li>
                 {% endif %}
@@ -21,7 +21,7 @@
             </ul>
             {% include "results.html" %}
             {% include "facets.html" %}
-            {% include "maps.html" %}
+            <!-- {% include "maps.html" %} -->
             {% if count <= 30000 %}
             {% include "statistics.html" %}
             {% endif %}
